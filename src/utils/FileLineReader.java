@@ -18,8 +18,6 @@ import java.util.*;
  * responsabilité.
  */
 public class FileLineReader {
-    public static List<String> lines;
-
     public static String[] readByLines(String fileName) throws IOException {
         String content = Files.readString(Paths.get(fileName));
         return content.split("\n");
