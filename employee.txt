@@ -1,0 +1,20 @@
+1,DUPOND Pierre-Hyve,002200220022,1000.0,Boss,patron,0.1,25/03/2025,employee
+2,MARTIN Julie,002200220023,1500.0,Manager,chef d'équipe,0.08,25/03/2026,extern
+3,DURAND Lucas,002200220024,1200.0,Employé,assistant RH,0.07,25/03/2027,intern
+4,BERNARD Emma,002200220025,1100.0,Stagiaire,développeur junior,0.05,25/03/2026,intern
+5,ROBERT Antoine,002200220026,2000.0,Directeur,finance,0.09,25/03/2025,employee
+6,RICHARD Paul,002200220027,1300.0,Employé,comptable,0.07,25/03/2026,extern
+7,PETIT Laura,002200220028,1250.0,Stagiaire,marketing,0.06,25/03/2026,intern
+8,LEGRAND Maxime,002200220029,1400.0,Employé,technicien support,0.07,25/03/2027,intern
+9,GARNIER Elodie,002200220030,1550.0,Manager,gestion de projet,0.08,25/03/2025,employee
+10,FAURE Julien,002200220031,1350.0,Employé,logistique,0.07,25/03/2026,extern
+11,ROUSSEL Chloé,002200220032,1450.0,Stagiaire,analyste data,0.05,25/03/2026,intern
+12,BLANC Victor,002200220033,2100.0,Directeur,ressources humaines,0.09,25/03/2025,employee
+13,MOREAU Lucas,002200220034,1250.0,Employé,commercial,0.07,25/03/2027,intern
+14,BOYER Marie,002200220035,1400.0,Manager,gestion client,0.08,25/03/2025,employee
+15,ANDRE Thomas,002200220036,1150.0,Stagiaire,développeur web,0.05,25/03/2026,intern
+16,FABRE Manon,002200220037,1700.0,Employé,ingénieur logiciel,0.07,25/03/2026,extern
+17,FOURNIER Alexis,002200220038,1800.0,Boss,PDG,0.1,25/03/2025,employee
+18,GUERIN Lucie,002200220039,1350.0,Stagiaire,communication,0.05,25/03/2026,intern
+19,GILBERT Cédric,002200220040,1450.0,Employé,technicien informatique,0.07,25/03/2027,intern
+20,LOUIS Léna,002200220041,1600.0,Manager,opérations,0.08,25/03/2025,employee
