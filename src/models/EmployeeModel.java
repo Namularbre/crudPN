@@ -7,6 +7,10 @@ import utils.FileLineReader;
 import java.io.IOException;
 import java.util.*;
 
+/**
+ * Dans MVC, un model gère l'accès aux données.
+ * C'est le cas ici, même si je n'ai pas de controller ou de view.
+ */
 public class EmployeeModel {
     public static final String EMPLOYEE_FILE = "employee.txt";
 
@@ -30,10 +34,10 @@ public class EmployeeModel {
                     double salary = Double.parseDouble(parts[3]);
                     String jobTitle = parts[5];
                     double cotisation = Double.parseDouble(parts[6]);
-                    Date endOfContract = new Date(parts[7]);
+                    Date endOfContract = parts[7] == null ? null : new Date(parts[7]);
                     String type = parts[8];
 
-                    Employee employee = EmployeeFactory.makeEmployee(type, id, name, phoneNumber, salary, endOfContract, cotisation);
+                    Employee employee = EmployeeFactory.makeEmployee(type, id, name, phoneNumber, jobTitle, salary, endOfContract, cotisation);
                     employees.add(employee);
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
